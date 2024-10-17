@@ -306,7 +306,7 @@ class _BarItemState extends AnimatedWidgetBaseState<_BarItem> {
                     : widget.value.toString()),
             textAlign: TextAlign.center,
             softWrap: false,
-            style: widget.valueStyle ?? Theme.of(context).textTheme.caption,
+            style: widget.valueStyle ?? Theme.of(context).textTheme.bodySmall,
           ),
         ),
         Flexible(
@@ -333,7 +333,7 @@ class _BarItemState extends AnimatedWidgetBaseState<_BarItem> {
             widget.label == null ? '' : widget.label!,
             softWrap: false,
             textAlign: TextAlign.center,
-            style: widget.labelStyle ?? Theme.of(context).textTheme.subtitle1,
+            style: widget.labelStyle ?? Theme.of(context).textTheme.titleMedium,
           ),
         ),
       ],

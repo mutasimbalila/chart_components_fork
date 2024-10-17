@@ -1,4 +1,4 @@
-import 'package:example/bar_chart_page.dart';
+import './bar_chart_page.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -22,7 +22,7 @@ class HomePage extends StatelessWidget {
               child: Text(
                 'Bar Chart + Calendar Grid',
                 textAlign: TextAlign.center,
-                style: Theme.of(context).textTheme.headline5,
+                style: Theme.of(context).textTheme.headlineSmall,
               ),
             ),
             SizedBox(
